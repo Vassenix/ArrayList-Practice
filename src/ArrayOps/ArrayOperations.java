@@ -3,7 +3,7 @@ package ArrayOps;
 
 /**
  * Programming Project 5 for COM S 207
- * @ Michael Lundquist
+ * @ Vassenix
  */
 
 
@@ -86,7 +86,7 @@ public class ArrayOperations {
 		File f = new File(fileName);
 		Scanner fileIn = new Scanner (f);
 		ArrayList<Integer> list = new ArrayList<Integer>();
-				while (fileIn.hasNextInt()) { // quit when you encounter ‘Q’
+				while (fileIn.hasNextInt()) { // quit when you encounter â€˜Qâ€™
 					int num = fileIn.nextInt();
 					list.add(num);
 
